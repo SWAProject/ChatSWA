@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visissssssst <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Login from "../Login.svelte";
+  import Messages from "../Messages.svelte";
+  import { currentUser } from "../pocketbase";
+</script>
+
+<h1>Chat elo</h1>
+
+<Login />
+
+{#if $currentUser}
+  <Messages />
+{/if}
