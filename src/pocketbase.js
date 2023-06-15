@@ -2,8 +2,8 @@ import PocketBase from "pocketbase";
 
 import { writable } from "svelte/store";
 
-// export const pb = new PocketBase("https://chatswa.me");
-export const pb = new PocketBase("https://170.187.185.17");
+export const pb = new PocketBase("https://chatswa.me");
+// export const pb = new PocketBase("https://170.187.185.17");
 
 export const currentUser = writable(pb.authStore.model);
 
