@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/roboto": "^5.0.3",
 		"cors": "^2.8.5",
 		"pocketbase": "^0.15.2"
 	}

@@ -42,3 +42,11 @@
     <button on:click={login}>Login</button>
   </form>
 {/if}
+
+<style>
+	p {
+		color: black;
+		font-family: 'Roboto', cursive;
+		font-size: 2em;
+	}
+</style>
