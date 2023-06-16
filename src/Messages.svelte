@@ -77,16 +77,19 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+  @import url("https://fonts.cdnfonts.com/css/gg-sans-2");
   .sentby {
-    font-family: "Roboto", sans-serif;
+    font-family: "gg sans Medium";
+    font-weight: 400;
     color: white;
     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
   }
   .msg {
-    font-family: "Roboto", sans-serif;
+    font-family: "gg sans Medium";
+    font-weight: 400;
     color: white;
     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
-    padding-top: 5px;
+    padding-top: 6px;
   }
 
   .messages {
@@ -103,11 +106,12 @@
 
   .msg-text {
     width: 95%;
+    font-size: 16px;
     /* height: 200px; */
     word-wrap: break-word;
     display: inline-block;
     height: wrap; /*sets height of element*/
-    background: rgb(41, 116, 255);
+    background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
     border-radius: 5px;
     transition: all 0.6s; /*sets a transition (for hover effect)*/
     padding: 5px 5px;
@@ -115,7 +119,7 @@
   }
 
   button {
-    background-color: #424549;
+    background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
     border: none;
     border-radius: 3px;
     height: 30px;
@@ -137,11 +141,19 @@
 
   form input {
     flex-grow: 1;
-    background-color: #424549;
+    background-color: #4d5054;
     border-radius: 3px;
     border: none;
     color: white;
+    transition: 0.2s;
   }
+
+  form input:focus {
+    border: none;
+    outline: none;
+    filter: brightness(90%);
+  }
+
   p {
     padding-bottom: 0px;
   }
