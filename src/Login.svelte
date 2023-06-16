@@ -26,6 +26,7 @@
   function signOut() {
     pb.authStore.clear();
   }
+  import Button from "./Button.svelte"
 </script>
 
 {#if $currentUser}
@@ -38,8 +39,8 @@
     <input placeholder="Username" type="text" bind:value={username} />
 
     <input placeholder="Password" type="password" bind:value={password} />
-    <button on:click={signUp}>Sign Up</button>
-    <button on:click={login}>Login</button>
+    <Button on:click={signUp}>Sign Up</Button>
+    <Button on:click={login}>Login</Button>
   </form>
 {/if}
 
