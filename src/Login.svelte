@@ -46,7 +46,7 @@
 <style>
 	p {
 		color: black;
-		font-family: '@fontsource/roboto', cursive;
+		font-family: 'Arial', cursive;
 		font-size: 2em;
 	}
 </style>
