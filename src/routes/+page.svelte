@@ -6,7 +6,7 @@
 
 <div class="container">
   <div class="all">
-    <h1>ChatSWA</h1>
+    <h1>ChatSWA<img src="src/ninja.png" alt="ninja" width="80px" /></h1>
 
     <div class="login-messages">
       <div class="login">
@@ -32,59 +32,10 @@
   h1 {
     font-size: 70px;
     margin: 0px 0px;
-    /* text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5); */
-    /* background-color: #ca4246; */
-
-    /* Create the gradient. */
-    /* background-image: linear-gradient(
-      43deg,
-      #456fe8 16.666%,
-      #4176e8 16.666%,
-      #3c7ce9 33.333%,
-      #3883e9 33.333%,
-      #2f90ea 50%,
-      #2b96ea 50%,
-      #269deb 66.666%,
-      #22a3eb 66.666%,
-      #1daaec 83.333%,
-      #19b0ec 83.333%
-    );
-
-    background-size: 100%;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    animation: rainbow-text-simple-animation-rev 0.75s ease-out forwards;
-  }
-
-  h1:hover {
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-  }
-
-  @keyframes rainbow-text-simple-animation-rev {
-    0% {
-      background-size: 650%;
-    }
-    40% {
-      background-size: 650%;
-    }
-    100% {
-      background-size: 100%;
-    }
-  }
-
-  @keyframes rainbow-text-simple-animation {
-    0% {
-      background-size: 100%;
-    }
-    80% {
-      background-size: 650%;
-    }
-    100% {
-      background-size: 650%;
-    } */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
   .container {
