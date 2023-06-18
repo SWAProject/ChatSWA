@@ -64,7 +64,7 @@
         <div class="sender-info">
           <img
             class="avatar"
-            src={`https://avatars.dicebear.com/api/pixel-art/${message.expand?.user?.username}.svg`}
+            src={`https://avatars.dicebear.com/api/pixel-art/${message.expand.user.username}.svg`}
             alt="avatar"
             width="30px"
           />
@@ -150,10 +150,10 @@
     filter: brightness(90%);
   }
   button:active {
-  background-color: #3e8e41;
-  animation-delay: 0.5s;
-  transform: translateY(2px);
-}
+    background-color: #3e8e41;
+    animation-delay: 0.5s;
+    transform: translateY(2px);
+  }
 
   form {
     display: flex;
