@@ -172,23 +172,6 @@
   width: 100%;
 }
 
-.btn-14 {
-  cursor: pointer;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-family: Marvel;
-  font-size: 20pt;
-  width: 200px;
-  height: 45px;
-  position: relative;
-  border: solid #777 2px;
-  color: #777;
-  z-index: 1;
-  transition: all 0.5s ease-in-out;
-  border-radius: 5px;
-  background-color: transparent;
-}
-
 .btn-2:hover {
   color: #f1f1f1;
   border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
