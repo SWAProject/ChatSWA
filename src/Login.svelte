@@ -31,7 +31,8 @@
 {#if $currentUser}
   <p class="signed-in">
     Signed in as @{$currentUser.username}
-    <button on:click={signOut}>Sign Out</button>
+    <button class="btn-3" on:click={signOut}>
+      Sign Out</button>
   </p>
 {:else}
   <div class="login-form">
@@ -57,10 +58,10 @@
         />
       </div>
       <div id="buttons">
-        <button on:click={login}>
+        <button class="btn-1" on:click={login}>
           <span>Login</span>
         </button>
-        <button class = "btn-14" on:click={signUp}>
+        <button class = "btn-2" on:click={signUp}>
          <span>SignUp</span>
         </button>
       </div>
@@ -115,25 +116,25 @@
   height: flex;
   position: relative;
   border: solid #777 1.5px;
-  color: #777;
+  color: rgb(172, 172, 172);
   z-index: 1;
   transition: all 0.5s ease-in-out;
   border-radius: 0px;
   background-color: transparent;
 }
 
-button:hover {
+.btn-1:hover {
   color: #f1f1f1;
   border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
 }
 
-button:hover:before {
+.btn-1:hover:before {
   left: 0%;
   right: auto;
   width: 100%;
 }
 
-button:before {
+.btn-1:before {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -146,32 +147,60 @@ button:before {
   transition: all 500ms ease-in-out;
 }
 
-button:active:before {
+.btn-1:active:before {
   background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
 }
 
-button:active {
+.btn-1:active {
   color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
   background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
   border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
 }
 
-button:focus {
+.btn-1:focus {
   outline: none
 }
 
-.btn-14:hover {
+.btn-1:hover {
   color: #f1f1f1;
   border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
 }
 
-.btn-14:hover:before {
+.btn-2:hover:before {
   right: 0%;
   left: auto;
   width: 100%;
 }
 
-.btn-14:before {
+.btn-14 {
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Marvel;
+  font-size: 20pt;
+  width: 200px;
+  height: 45px;
+  position: relative;
+  border: solid #777 2px;
+  color: #777;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.btn-2:hover {
+  color: #f1f1f1;
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-2:hover:before {
+  right: 0%;
+  left: auto;
+  width: 100%;
+}
+
+.btn-2:before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -184,17 +213,55 @@ button:focus {
   transition: all 500ms ease-in-out;
 }
 
-.btn-14:active:before {
-  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+.btn-2:active:before {
+  background-color: #00a7fc;
 }
 
-.btn-14:active {
+.btn-2:active {
+  color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-2:focus {
+  outline: none
+}
+
+.btn-3:hover {
+  color: #f1f1f1;
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-3:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+.btn-3:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 0%;
+  width: 100%;
+  z-index: -1;
+  content: "";
+  color: #f1f1f1;
+  background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  transition: all 500ms ease-in-out;
+}
+
+.btn-3:active:before {
+  background-color: #00a7fc;
+}
+
+.btn-3:active {
   color: #333;
   background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
   border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
 }
 
-.btn-14:focus {
+.btn-3:focus {
   outline: none
 }
 
