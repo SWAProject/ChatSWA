@@ -58,14 +58,13 @@
       </div>
       <div id="buttons">
         <button on:click={login}>
-          <svg width="90px" height="27px" viewBox="0 0 90 27" class="border">
-            <polyline points="90,0 90,27 0,27 0,0 90,0" class="bg-line" />
-            <polyline points="90,0 90,27 0,27 0,0 90,0" class="hl-line" />
-          </svg>
           <span>Login</span>
         </button>
-        <button on:click={signUp}>Sign Up</button>
+        <button class = "btn-14" on:click={signUp}>
+         <span>SignUp</span>
+        </button>
       </div>
+      
     </form>
   </div>
 {/if}
@@ -101,48 +100,103 @@
   }
 
   #buttons {
-    /* display: flex;
-    gap: 20px; */
+    display: flex;
+    gap: 20px;
   }
 
   button {
-    width: 90px;
-    height: 27px;
-    cursor: pointer;
-    background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
-    border: none;
-    border-radius: 3px;
-    outline: none;
-    font-size: 17px;
-    transition: 1s ease-in-out;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
-  }
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family: "gg sans SemiBold";
+  font-size: 17px;
+  text-align:center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
+  width: 100px;
+  height: flex;
+  position: relative;
+  border: solid #777 1.5px;
+  color: #777;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0px;
+  background-color: transparent;
+}
 
-  svg {
-    position: absolute;
-    left: 5;
-    top: 5;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
-  }
+button:hover {
+  color: #f1f1f1;
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
 
-  button:hover {
-    transition: 1s ease-in-out;
-    background: #4f95da;
-  }
+button:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
 
-  button:hover svg {
-    stroke-dashoffset: -480;
-  }
+button:before {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  content: "";
+  color: #f1f1f1;
+  background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  transition: all 500ms ease-in-out;
+}
 
-  button span {
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
-  }
+button:active:before {
+  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+button:active {
+  color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+button:focus {
+  outline: none
+}
+
+.btn-14:hover {
+  color: #f1f1f1;
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-14:hover:before {
+  right: 0%;
+  left: auto;
+  width: 100%;
+}
+
+.btn-14:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  content: "";
+  color: #f1f1f1;
+  background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  transition: all 500ms ease-in-out;
+}
+
+.btn-14:active:before {
+  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-14:active {
+  color: #333;
+  background-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+  border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+}
+
+.btn-14:focus {
+  outline: none
+}
 
   .signed-in {
     display: flex;
