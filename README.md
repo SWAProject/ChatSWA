@@ -1,38 +1,27 @@
-# create-svelte
+## ChatSWA
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem. Aplikacja została zbudowana przy użyciu następujących technologii:
 
-## Creating a project
+Svelte: Framework JavaScript do tworzenia interfejsów użytkownika. Svelte został wykorzystany do budowy komponentów interfejsu użytkownika, takich jak page.svelte, Login.svelte i Messages.svelte.
 
-If you're seeing this, you've probably already done this step. Congrats!
+PocketBase: Biblioteka JavaScript do integracji z bazą danych w chmurze. PocketBase został użyty do obsługi autoryzacji użytkowników, przechowywania wiadomości i zarządzania kolekcjami.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Komponenty
+page.svelte
+Komponent page.svelte jest odpowiedzialny za renderowanie głównej strony aplikacji. Wyświetla avatar użytkownika, który wysyła wiadomość, oraz zawartość komponentu Login.svelte lub Messages.svelte, w zależności od stanu uwierzytelnienia użytkownika.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Login.svelte
+Komponent Login.svelte obsługuje logowanie i rejestrację użytkownika. Zawiera formularz, w którym użytkownik może wprowadzić nazwę użytkownika i hasło. Komponent korzysta z biblioteki PocketBase do uwierzytelniania użytkowników i przechowywania danych.
 
-## Developing
+Messages.svelte
+Komponent Messages.svelte jest odpowiedzialny za wyświetlanie i wysyłanie wiadomości. Wyświetla listę wiadomości wraz z informacjami o użytkownikach, którzy je wysłali. Komponent używa biblioteki PocketBase do pobierania i dodawania wiadomości, a także do subskrypcji w czasie rzeczywistym, co pozwala na wyświetlanie nowych wiadomości bez konieczności odświeżania strony.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Style
+Aplikacja korzysta z różnych stylów CSS, które zostały zdefiniowane wewnątrz komponentów. Style te są odpowiedzialne za wygląd i układ elementów interfejsu użytkownika, takich jak przyciski, pola tekstowe i listy wiadomości.
 
-```bash
-npm run dev
+Zależności
+Aplikacja używa następujących zależności:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Svelte: wersja x.x.x
+PocketBase: wersja x.x.x
+Aby uruchomić aplikację, należy zainstalować wymienione powyżej zależności i skonfigurować środowisko zgodnie z dokumentacją tych bibliotek.
