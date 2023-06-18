@@ -226,7 +226,7 @@
 
   .btn-3:hover {
     color: #f1f1f1;
-    border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+    border-color: linear-gradient(43deg, #a10000 0%, #d70000 46%, #ff1a1a 100%);
   }
 
   .btn-3:hover:before {
@@ -244,7 +244,7 @@
     z-index: -1;
     content: "";
     color: #f1f1f1;
-    background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+    background: linear-gradient(43deg, #a10000 0%, #d70000 46%, #ff1a1a 100%);
     transition: all 500ms ease-in-out;
   }
 
@@ -254,13 +254,8 @@
 
   .btn-3:active {
     color: #333;
-    background-color: linear-gradient(
-      43deg,
-      #456fe8 0%,
-      #2f90ea 46%,
-      #19b0ec 100%
-    );
-    border-color: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+    background-color: linear-gradient(43deg, #a10000 0%, #d70000 46%, #ff1a1a 100%);
+    border-color: linear-gradient(43deg, #a10000 0%, #d70000 46%, #ff1a1a 100%);
   }
 
   .btn-3:focus {
