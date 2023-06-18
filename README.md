@@ -2,6 +2,30 @@
 
 Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem. Aplikacja została zbudowana przy użyciu następujących technologii:
 
+# Użyte technologie
+
+## Linode:
+
+Linode został wykorzystany jako serwer do hostowania bazy danych. Wybór Linode zapewnia niezawodność, skalowalność i wydajność, co jest kluczowe dla przechowywania danych w aplikacji do czatowania.
+
+## PocketBase:
+
+PocketBase został użyty jako baza danych w projekcie. PocketBase zapewnia prosty interfejs do zarządzania danymi i subskrypcji w czasie rzeczywistym, co jest idealne dla aplikacji czatowej, gdzie aktualizacje danych są kluczowe.
+
+## Azure:
+
+Azure został wykorzystany jako serwer do hostowania aplikacji. Azure oferuje niezawodne i skalowalne środowisko uruchomieniowe, które jest idealne dla aplikacji internetowych, takich jak czat, zapewniając wysoką dostępność i wydajność.
+
+## Svelte:
+
+Svelte został użyty jako framework do budowy interfejsu użytkownika. Svelte oferuje prosty model reaktywności i efektywny sposób renderowania, co przekłada się na szybsze i bardziej płynne doświadczenie użytkownika.
+
+## DiceBear:
+
+DiceBear został użyty do generowania awatarów użytkowników. DiceBear oferuje różnorodne style awatarów, co dodaje wizualnego zróżnicowania do aplikacji czatowej i tworzy przyjemne i unikalne wrażenie dla użytkowników.
+
+Użycie tych technologii w projekcie przynosi wiele korzyści, takich jak niezawodność, skalowalność, prostota w zarządzaniu danymi, wydajność, estetyka awatarów i ogólnie lepsze doświadczenie użytkownika.
+
 ## Svelte:
 
 Framework JavaScript do tworzenia interfejsów użytkownika. Svelte został wykorzystany do budowy komponentów interfejsu użytkownika, takich jak page.svelte, Login.svelte i Messages.svelte.
@@ -28,10 +52,6 @@ Komponent Messages.svelte jest odpowiedzialny za wyświetlanie i wysyłanie wiad
 
 Aplikacja korzysta z różnych stylów CSS, które zostały zdefiniowane wewnątrz komponentów. Style te są odpowiedzialne za wygląd i układ elementów interfejsu użytkownika, takich jak przyciski, pola tekstowe i listy wiadomości.
 
-# Zależności
+# Live preview
 
-## Aplikacja używa następujących zależności:
-
-Svelte: wersja x.x.x
-PocketBase: wersja x.x.x
-Aby uruchomić aplikację, należy zainstalować wymienione powyżej zależności i skonfigurować środowisko zgodnie z dokumentacją tych bibliotek.
+[ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/) hostowany na Azure.
