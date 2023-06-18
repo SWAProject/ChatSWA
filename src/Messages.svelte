@@ -149,6 +149,11 @@
     cursor: pointer;
     filter: brightness(90%);
   }
+  button:active {
+  background-color: #3e8e41;
+  animation-delay: 0.5s;
+  transform: translateY(2px);
+}
 
   form {
     display: flex;

@@ -290,8 +290,6 @@
   background-color: #3e8e41;
   animation-delay: 0.5s;
   transform: translateY(2px);
-  
-  
 }
   .signed-in {
     display: flex;
