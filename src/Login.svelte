@@ -32,7 +32,7 @@
   <p class="signed-in">
     Signed in as @{$currentUser.username}
 
-    <button class="btn-3" on:click={signOut}> Sign Out</button>
+    <button on:click={signOut}> Sign Out</button>
   </p>
 {:else}
   <div class="login-form">
@@ -58,12 +58,17 @@
         />
       </div>
       <div id="buttons">
-        <button class="btn-1" on:click={login}>
+        <!-- <button class="btn-1" on:click={login}>
           <span>Login</span>
         </button>
         <button class="btn-2" on:click={signUp}>
-          <span>SignUp</span>
+          <span>SignUp</span> -->
+          <button  on:click={login}>
+            Login
         </button>
+        <button  on:click={signUp}>
+          SignUp
+      </button>
       </div>
     </form>
   </div>
@@ -104,7 +109,7 @@
     gap: 20px;
   }
 
-  button {
+  /* button {
     cursor: pointer;
     letter-spacing: 2px;
     font-family: "gg sans SemiBold";
@@ -260,8 +265,34 @@
 
   .btn-3:focus {
     outline: none;
+  } */
+
+  button {
+    /* background-color: #424549; */
+
+    background: linear-gradient(43deg, #456fe8 0%, #2f90ea 46%, #19b0ec 100%);
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    height: 27px;
+    width: 90px;
+    color: white;
+    transition: 0.1s;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
   }
 
+  button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+  }
+
+  button:active {
+  background-color: #3e8e41;
+  animation-delay: 0.5s;
+  transform: translateY(2px);
+  
+  
+}
   .signed-in {
     display: flex;
     flex-direction: column;
