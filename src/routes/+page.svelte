@@ -6,7 +6,7 @@
 
 <div class="container">
   <div class="all">
-    <h1>ChatSWA<img src="src/ninja.png" alt="ninja" width="80px" /></h1>
+    <h1>ChatSWA<img src="ninja.png" alt="ninja" width="80px" /></h1>
 
     <div class="login-messages">
       <div class="login">
