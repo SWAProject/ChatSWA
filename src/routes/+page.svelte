@@ -119,6 +119,7 @@
     padding: 10px;
     /* font-size: 10px; */
     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 45px 7px rgba(31, 31, 35, 1);
   }
 
   .login-messages {
