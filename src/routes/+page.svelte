@@ -95,10 +95,10 @@
     width: 100vw;
     background-color: #4158d0;
     background-image: linear-gradient(
-      43deg,
-      #2a469a 0%,
-      #2873b9 46%,
-      #19b0ec 100%
+      45deg,
+      #11214f 0%,
+      #0e4e8a 46%,
+      #00b7ff 100%
     );
 
     /* background-color: #424549; */
