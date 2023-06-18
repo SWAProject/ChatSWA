@@ -168,6 +168,7 @@
     border: none;
     color: white;
     transition: 0.2s;
+    padding: 7px;
   }
 
   form input:focus {
