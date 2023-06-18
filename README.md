@@ -1,4 +1,4 @@
-# ChatSWA
+# [ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/)
 
 Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem. Aplikacja została zbudowana przy użyciu następujących technologii:
 
@@ -49,5 +49,3 @@ Komponent Messages.svelte jest odpowiedzialny za wyświetlanie i wysyłanie wiad
 # Style
 
 Aplikacja korzysta z różnych stylów CSS, które zostały zdefiniowane wewnątrz komponentów. Style te są odpowiedzialne za wygląd i układ elementów interfejsu użytkownika, takich jak przyciski, pola tekstowe i listy wiadomości.
-
-# [ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/)
