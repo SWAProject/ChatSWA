@@ -24,8 +24,6 @@ Svelte został użyty jako framework do budowy interfejsu użytkownika. Svelte o
 
 DiceBear został użyty do generowania awatarów użytkowników. DiceBear oferuje różnorodne style awatarów, co dodaje wizualnego zróżnicowania do aplikacji czatowej i tworzy przyjemne i unikalne wrażenie dla użytkowników.
 
-Użycie tych technologii w projekcie przynosi wiele korzyści, takich jak niezawodność, skalowalność, prostota w zarządzaniu danymi, wydajność, estetyka awatarów i ogólnie lepsze doświadczenie użytkownika.
-
 ## Svelte:
 
 Framework JavaScript do tworzenia interfejsów użytkownika. Svelte został wykorzystany do budowy komponentów interfejsu użytkownika, takich jak page.svelte, Login.svelte i Messages.svelte.
@@ -52,6 +50,4 @@ Komponent Messages.svelte jest odpowiedzialny za wyświetlanie i wysyłanie wiad
 
 Aplikacja korzysta z różnych stylów CSS, które zostały zdefiniowane wewnątrz komponentów. Style te są odpowiedzialne za wygląd i układ elementów interfejsu użytkownika, takich jak przyciski, pola tekstowe i listy wiadomości.
 
-# Live preview
-
-[ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/) hostowany na Azure.
+# [ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/)
