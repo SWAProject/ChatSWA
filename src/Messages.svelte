@@ -61,9 +61,17 @@
   {#each messages as message (message.id)}
     <div class="msg">
       <div class="sentby">
-        <small>
-          @{message.expand.user.username}
-        </small>
+        <div class="sender-info">
+          <img
+            class="avatar"
+            src={`https://avatars.dicebear.com/api/pixel-art/${message.expand?.user?.username}.svg`}
+            alt="avatar"
+            width="30px"
+          />
+          <small>
+            {message.expand.user.username}
+          </small>
+        </div>
         <p class="msg-text">{message.text}</p>
       </div>
     </div>
@@ -116,6 +124,15 @@
     transition: all 0.6s; /*sets a transition (for hover effect)*/
     padding: 5px 5px;
     margin: 5px;
+  }
+
+  .sender-info {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  small {
+    font-size: 15px;
   }
 
   button {
