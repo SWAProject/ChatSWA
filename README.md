@@ -1,4 +1,4 @@
-# [ChatSWA](https://ashy-island-03cd51103.3.azurestaticapps.net/)
+# [ChatSWA](https://chatswa.ninja)
 
 Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem. Aplikacja została zbudowana przy użyciu następujących technologii:
 
