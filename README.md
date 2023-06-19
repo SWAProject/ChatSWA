@@ -42,7 +42,7 @@ Komponent page.svelte jest odpowiedzialny za renderowanie głównej strony aplik
 
 Komponent Login.svelte obsługuje logowanie i rejestrację użytkownika. Zawiera formularz, w którym użytkownik może wprowadzić nazwę użytkownika i hasło. Komponent korzysta z biblioteki PocketBase do uwierzytelniania użytkowników i przechowywania danych.
 
-#3 Messages.svelte
+## Messages.svelte
 
 Komponent Messages.svelte jest odpowiedzialny za wyświetlanie i wysyłanie wiadomości. Wyświetla listę wiadomości wraz z informacjami o użytkownikach, którzy je wysłali. Komponent używa biblioteki PocketBase do pobierania i dodawania wiadomości, a także do subskrypcji w czasie rzeczywistym, co pozwala na wyświetlanie nowych wiadomości bez konieczności odświeżania strony.
 
