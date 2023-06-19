@@ -1,6 +1,6 @@
 # [ChatSWA](https://chatswa.ninja)
 
-Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem. Aplikacja została zbudowana przy użyciu następujących technologii:
+Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem, na wspólnym kanale tekstowym. Aplikacja została zbudowana przy użyciu następujących technologii:
 
 # Użyte technologie
 
