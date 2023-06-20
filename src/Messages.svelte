@@ -113,7 +113,7 @@
   }
 
   .msg-text {
-    width: 95%;
+    width: 94%;
     font-size: 16px;
     /* height: 200px; */
     word-wrap: break-word;
@@ -143,6 +143,7 @@
     width: 60px;
     color: white;
     transition: 0.1s;
+    box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
   }
 
   button:hover {
@@ -169,6 +170,7 @@
     color: white;
     transition: 0.2s;
     padding: 7px;
+    box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
   }
 
   form input:focus {

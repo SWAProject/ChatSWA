@@ -32,7 +32,7 @@
   <p class="signed-in">
     Signed in as @{$currentUser.username}
 
-    <button on:click={signOut}> Sign Out</button>
+    <button class="btn-1" on:click={signOut}> Sign Out</button>
   </p>
 {:else}
   <div class="login-form">
@@ -279,6 +279,7 @@
     color: white;
     transition: 0.1s;
     text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
   }
 
   button:hover {
@@ -292,7 +293,8 @@
   transform: translateY(2px);
 }
 .btn-1{
-  background: linear-gradient(43deg, #981515 0%, #db1212 46%, #ff3131 100%);
+  background: red;
+  box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
 }
   .signed-in {
     display: flex;
