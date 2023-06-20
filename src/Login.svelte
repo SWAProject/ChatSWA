@@ -291,6 +291,9 @@
   animation-delay: 0.5s;
   transform: translateY(2px);
 }
+.btn-1{
+  background: linear-gradient(43deg, #981515 0%, #db1212 46%, #ff3131 100%);
+}
   .signed-in {
     display: flex;
     flex-direction: column;
