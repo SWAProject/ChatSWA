@@ -1,6 +1,10 @@
 # [ChatSWA](https://chatswa.ninja)
 
+<img src="./static/logowanie.png" alt="Ekran logowania" style = "max-width:300px">
+
+
 ![Ekran logowania](./static/logowanie.png)
+
 ![Po zalogowaniu](./static/czat.png)
 
 Aplikacja ChatSWA umożliwia użytkownikom komunikację poprzez wysyłanie wiadomości do siebie nawzajem, na wspólnym kanale tekstowym. Aplikacja została zbudowana przy użyciu następujących technologii:
