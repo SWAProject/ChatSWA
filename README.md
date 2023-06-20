@@ -18,7 +18,7 @@ Azure został wykorzystany jako serwer do hostowania aplikacji. Azure oferuje ni
 
 ## Svelte:
 
-Svelte został użyty jako framework do budowy interfejsu użytkownika. Svelte oferuje prosty model reaktywności i efektywny sposób renderowania, co przekłada się na szybsze i bardziej płynne doświadczenie użytkownika.
+Svelte został użyty jako framework, do budowy interfejsu użytkownika. Svelte oferuje prosty model reaktywności i efektywny sposób renderowania, co przekłada się na szybsze i bardziej płynne doświadczenie użytkownika.
 
 ## DiceBear:
 
