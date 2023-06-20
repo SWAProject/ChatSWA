@@ -63,12 +63,8 @@
         </button>
         <button class="btn-2" on:click={signUp}>
           <span>SignUp</span> -->
-          <button  on:click={login}>
-            Login
-        </button>
-        <button  on:click={signUp}>
-          SignUp
-      </button>
+        <button on:click={login}> Login </button>
+        <button on:click={signUp}> SignUp </button>
       </div>
     </form>
   </div>
@@ -288,14 +284,14 @@
   }
 
   button:active {
-  background-color: #3e8e41;
-  animation-delay: 0.5s;
-  transform: translateY(2px);
-}
-.btn-1{
-  background: red;
-  box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
-}
+    background-color: #3e8e41;
+    animation-delay: 0.5s;
+    transform: translateY(2px);
+  }
+  .btn-1 {
+    background: red;
+    box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 1);
+  }
   .signed-in {
     display: flex;
     flex-direction: column;
@@ -317,6 +313,7 @@
     padding: 5px;
     transition: 0.1s;
     width: 250px;
+    box-shadow: 4px 4px 30px -8px rgba(0, 0, 0, 1);
   }
 
   input:focus {

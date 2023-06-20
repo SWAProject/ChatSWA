@@ -108,8 +108,20 @@
     width: 100%;
   }
 
-  .messages::-webkit-scrollbar {
-    display: none;
+  ::-webkit-scrollbar {
+    width: 10px;
+    /* background: yellow; */
+    /* display: none; */
+    /* scrollbar-base-color: transparent; */
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb:vertical {
+    background-color: #4d5054;
+    border-radius: 10px;
   }
 
   .msg-text {
