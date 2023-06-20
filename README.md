@@ -1,6 +1,6 @@
 # [ChatSWA](https://chatswa.ninja)
 
-<img src="./static/logowanie.png" alt="Ekran logowania" style = "max-width:300px">
+<img src="./static/logowanie.png" alt="Ekran logowania" style = "max-width:50px">
 
 
 ![Ekran logowania](./static/logowanie.png)
