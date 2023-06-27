@@ -1,4 +1,4 @@
-# [ChatSWA](https://chatswa.ninja)
+# ChatSWA
 
 <img src="./static/logowanie.png" alt="Ekran logowania" style = "width:400px"><img src="./static/czat.png" alt="Ekran czatu" style = "width:400px;margin:50px">
 
